@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient:(#32a89b 0%, #4d27ab 100%);
+}
+
+.menu {
+    font-family: sans-serif;
+    position: absolute;
+    top: 0;
+    margin-top: 0;
+    z-index: 10;
+    cursor: pointer;
+    background: white;
+    width: 100%;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    visibility: visible;
+    margin: 8px auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.links {
+    color: #000;
+
+    padding-right: 25px;
+    padding-left: 33px;
+
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+
+.links:hover {
+    background-color: #eecfff;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#special{
+    background: linear-gradient(#e3fce4, #e3f0fc)
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 500px;
+    color: 000000;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-color: #e3fce4;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: Lato, 'sans-serif'
+}
+
+p1 {
+    text-align: center;
+}
+#contact{
+}
+
+#ea {
+    width: 100px;
+    height: 150px;
+}
+
+#rob {
+    width: 100px;
+    height: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
